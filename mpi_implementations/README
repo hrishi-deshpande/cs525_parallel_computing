@@ -1,0 +1,9 @@
+#MPI Implementation of the producer-consumer problem
+
+q1: Producer consumer using a central broker. Process with rank 0 is the broker.
+Processes with odd rank are producers while processes with even rank are consumers.
+Broker maintains a queue. Its accepts messages from producers and sends messages to consumers.
+
+q2: Producer consumer problem without a central broker. Anyone can be a producer or a consumer.
+
+q3: Producer consumer problem without a central broker. We have 2 processes per core. One of them has a odd rank and is a producer while the other has a odd rank and is thus a consumer.
