@@ -1,0 +1,23 @@
+#Pthread Implementations
+
+1a, 1b, 1c: Pthread implementation of parallel producer-consumer problem using stack, queue and 
+double ended queue respectively
+
+q2: pthread implementation of parallel binary search tree.
+
+Compilations:
+
+g++ 1a.cpp -lpthread
+g++ 1b.cpp -lpthread
+g++ 1c.cpp -lpthread
+g++ 2.cpp  -lpthread
+
+Execution instructions:
+
+Question 1:
+./a.out <no_of_threads> <buffer_size> <sleep_time>
+usage: ./a.out 4 1000 10
+
+Question 2:
+./a.out <no_of_threads>
+Usage: ./a.out 4
